@@ -1,7 +1,7 @@
 {
   "name": "abot_stringdist",
   "version": "0.1.0",
-  "description": "string distance",
+  "description": "string distance (jaro winkler modified)",
   "main": "gen/index.js",
   "typings": "gen/index",
   "scripts": {
@@ -17,7 +17,7 @@
   "keywords": [
     "typescript",
     "abot",
-    "jarowinkler"
+    "jaro winkler"
   ],
   "author": "jfsebpublic@gmail.com",
   "license": "MIT",
