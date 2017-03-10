@@ -5,3 +5,13 @@ string distance functions
 based on natural
          talisman
 
+
+Note: the function gives an extra boost in weight to small string lengths
+
+usage:
+>
+>  var abot_stringdist = require('abot_stringdist');
+>  console.log(abot_stringdist.calcDistance('abc','abc'));  // 1.0
+
+
+
