@@ -38,7 +38,8 @@ gulp.task('watch', function () {
  * @output genDir
  */
 gulp.task('tsc', function () {
-  var tsProject = ts.createProject('tsconfig.json', { inlineSourceMap: true });
+  var tsProject = ts.createProject('tsconfig.json', { inlineSourceMap: true
+  });
   var tsResult = tsProject.src() // gulp.src('lib/*.ts')
     .pipe(sourcemaps.init()) // This means sourcemaps will be generated
     .pipe(tsProject());

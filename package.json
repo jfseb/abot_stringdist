@@ -1,9 +1,9 @@
 {
   "name": "abot_stringdist",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "string distance (jaro winkler modified)",
-  "main": "gen/index.js",
-  "typings": "gen/index",
+  "main": "js/index.js",
+  "typings": "js/index",
   "scripts": {
     "build": "gulp",
     "test": "gulp test",
