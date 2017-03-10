@@ -5,9 +5,7 @@ src
 test
 .eslintrc.json
 gen2
-gen_tsc
 gen_cov
 js_cov
 info.lcov
 logs
-testmodel/*
