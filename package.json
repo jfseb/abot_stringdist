@@ -7,7 +7,7 @@
   "scripts": {
     "build": "gulp",
     "test": "gulp test",
-    "instrument": "jscoverage gen2/ gen_cov/",
+    "instrument": "jscoverage gen2/ js_cov/",
     "testcov": "export FSD_COVERAGE=1 && nodeunit test/ --reporter=lcov | coveralls"
   },
   "repository": {
