@@ -4,7 +4,15 @@ logs
 src
 test
 .eslintrc.json
+tsconfig.json
+README.md
+.npmignore
+.gitignore
+.travis.yml
+guplfile.js
 gen2
+**/*.map
+*.bak
 gen_cov
 js_cov
 info.lcov
