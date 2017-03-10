@@ -244,5 +244,5 @@ gulp.task('standard', () => {
 
 
 // Default Task
-gulp.task('default', ['tsc',  'standard', 'test', 'doc', ]);
+gulp.task('default', ['tsc',  'standard', 'test', 'doc', 'babel2' ]);
 gulp.task('build', ['tsc', 'standard', 'babel2']);
